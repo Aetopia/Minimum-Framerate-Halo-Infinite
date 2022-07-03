@@ -33,7 +33,7 @@ Map:
 ### FPS
 <p align='center'><img src='images/fragementation.png'></p>
 
-#### Percentage
+### Percentage
 <p align='center'><img src='images/fragementation percent.png'></p>
 
 ### Observations
@@ -49,7 +49,7 @@ Map:
 ### FPS
 <p align='center'><img src='images/fragementation 960.png'></p>
 
-#### Percentage
+### Percentage
 <p align='center'><img src='images/fragementation 960 percent.png'></p>
 
 ### Observations
