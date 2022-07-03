@@ -46,6 +46,14 @@ Map:
 
 ### Fragementation > `Halo Infinite Vanilla Settings + Minimum Framerate set to 960`
 
+You can set the Minimum Framerate to 960 in Halo Infinite's config file.
+```json
+"spec_control_minimum_framerate": {
+        "version": 2,
+        "value": 960
+    },
+```
+
 ### FPS
 <p align='center'><img src='images/fragementation 960.png'></p>
 
