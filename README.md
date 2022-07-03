@@ -1,11 +1,11 @@
 # What is this repository about?
 I wanted to kind of document + research + see how the Minimum Framerate Option in Halo Infinite affects overall performance.
 
-## What is Minimum Framerate? (DSR)
-DSR or Dynamic Resolution Scaling is a feature in Halo Infinite which makes the game dynamically adjust the render resolution to hit said minimum framerate.          
-Its kind of a hit or miss, DSR can also induce stuttering due the resolution being adjusted constantly, if it is struggling to maintain the minimum framerate.
+## What is Minimum Framerate? (DRS)
+DRS or Dynamic Resolution Scaling is a feature in Halo Infinite which makes the game dynamically adjust the render resolution to hit said minimum framerate.          
+Its kind of a hit or miss, DRS can also induce stuttering due the resolution being adjusted constantly, if it is struggling to maintain the minimum framerate.
 
-## Testing DSR
+## Testing DRS
 
 ### Let me go over the testing bench here:
 System:
@@ -19,20 +19,45 @@ Halo Infinite Settings:
 > Render Resolution > 71%   
 > Sharpening: 100%         
 > Sensory Effects are disabled.
+> Game was played at `1920x1080` and `1600x900` **Display Resolutions**. (Not Render Resolution.)
 
 Map:
 > Fragmentation       
-> Player was set to stand Idle, with their crosshair look directl at the structure.               
+> Player was set to stand Idle, with the crosshair looking directly at the structure.       
 <p align='center'><img src='images/Untitled.png'></p>
 
-### Benchmarks
+## Benchmarks
 
-#### Fragementation: `Default Settings`
+### Fragementation > `Halo Infinite Vanilla Settings`
 
-#### FPS
+### FPS
 <p align='center'><img src='images/fragementation.png'></p>
 
 #### Percentage
-<p align='center'><img src='images/fragementation-percent.png'></p>
+<p align='center'><img src='images/fragementation percent.png'></p>
 
-#### Observations
+### Observations
+1. It seems using the Minimum Framerate boosted overall 0.2% Lows (Percentile).    
+
+2. We can see `1600x900 Uncapped Min FPS > 75` offers overall better stability and a decent performance boost as compared to `1920x1080 Uncapped`.
+
+3. `1920x1080 Uncapped Min FPS > 75` & `1600x900 Uncapped Min FPS > 75` offers similar performance but `1600x900 Uncapped Min FPS > 75` has better 0.2% Lows.
+
+
+### Fragementation > `Halo Infinite Vanilla Settings + Minimum Framerate set to 960`
+
+### FPS
+<p align='center'><img src='images/fragementation 960.png'></p>
+
+#### Percentage
+<p align='center'><img src='images/fragementation 960 percent.png'></p>
+
+### Observations
+1. DRS works more aggressively when the Minimum Framerate is set to 960.
+
+2. `1600x900 Min FPS > 960` takes performance out of the ball park as compared to the other tests.
+
+3. `1600x900 Uncapped Min FPS > 75`'s Avg. FPS is equal to the `1920x1080 Min FPS > 960`'s 0.2 Lows.
+
+4. Overall playing the game at `1920x1080` with the minimum framerate set to 960 yields a 57% performance boost.             
+   And playing at `1600x900` with the minimum framerate set to 960 yields 75% performance boost.
