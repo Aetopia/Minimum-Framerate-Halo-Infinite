@@ -76,7 +76,7 @@ With having your minimum framerate at 960, Dynamic Resolution Scaling aka DRS te
 
 1. You might experience the game somewhat stuttering but that isn't case, its the game simply bumping/decreasing the render resolution at more aggressive rate instead of gently.
 
-2. Using Scanline Sync with the minimum framerate set to 960, can result in mouse movement to be somewhat jittery.             
+2. Using Scanline Sync with the minimum framerate set to 960, can result in mouse movement to be somewhat jittery but this is only visual, doesn't affect gameplay in anyway.             
     Once again, its DSR acting more aggressively since you can experience the same jitteriness if you were to use forced V-Sync via your AMD/NVIDIA Control Panel.
 
 You can prevent both of these issues by settings the minimum framerate to something more reasonable i.e `240 FPS`.
