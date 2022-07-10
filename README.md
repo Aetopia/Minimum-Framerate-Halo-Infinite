@@ -78,3 +78,5 @@ With having your minimum framerate at 960, Dynamic Resolution Scaling aka DRS te
 
 2. Using Scanline Sync with the minimum framerate set to 960, can result in mouse movement to be somewhat jittery.             
     Once again, its DSR acting more aggressively since you can experience the same jitteriness if you were to use forced V-Sync via your AMD/NVIDIA Control Panel.
+
+You can prevent both of these issues by settings the minimum framerate to something more reasonable i.e `240 FPS`.
