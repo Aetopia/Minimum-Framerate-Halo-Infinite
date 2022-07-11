@@ -74,6 +74,10 @@ You can set the Minimum Framerate to 960 in Halo Infinite's config file.
 ## Downsides with having Minimum Framerate at 960.
 With having your minimum framerate at 960, Dynamic Resolution Scaling aka DRS tends to work more aggressively, but there are downsides to this.
 
-You might experience the game somewhat stuttering but that isn't case, its the game simply bumping/decreasing the render resolution at more aggressive rate instead of gently.
+1. You might experience the game somewhat stuttering but that isn't case, its the game simply bumping/decreasing the render resolution at more aggressive rate instead of gently.
+
+2. Mouse movement might appear stuttery/jittery but this is only visual and only occurs if your minimum framerate is set to `960`.
+
+    > Currently figuring out ways to either minimize or eliminate this issue.
 
 You can prevent both of these issues by settings the minimum framerate to something more reasonable i.e `240 FPS`.
