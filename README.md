@@ -79,4 +79,13 @@ With having your minimum framerate at 960, Dynamic Resolution Scaling aka DRS te
 2. Mouse movement might appear stuttery/jittery when using forced V-Sync or Scanline Sync (RTSS).        
     But this is only visual and only occurs if your minimum framerate is set to `960` or when DRS (Dynamic Resolution Scaling) acts very aggressively.
 
-    > Currently figuring out ways to either minimize or eliminate this issue.
+    ### How to minimize mouse stuttering or jittering?
+    
+    1. Make sure to use Scanline Sync in Halo Infinite.
+
+    2. Add a framerate limit/framecap for Halo Infinite.    
+        The framerate cap depends on the amount of FPS, you get in game.       
+        `i.e 150~160 FPS, use 120 FPS as the framecap.`         
+        ![rtss.png](images/rtss.png)
+    
+    3. Use Ultra Low Latency + Mouse Polling Rate set to 1000 Hz.
