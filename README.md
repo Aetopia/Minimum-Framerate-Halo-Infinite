@@ -67,8 +67,8 @@ You can set the Minimum Framerate to 960 in Halo Infinite's config file.
 
 3. `1600x900 Uncapped Min FPS > 75`'s Avg. FPS is equal to the `1920x1080 Min FPS > 960`'s 0.2 Lows.
 
-4. Overall playing the game at `1920x1080` with the minimum framerate set to 960 yields a 57% performance boost.             
-   And playing at `1600x900` with the minimum framerate set to 960 yields 75% performance boost.
+4. Overall playing the game at `1920x1080` with the minimum framerate set to 960 yields a 58% performance boost.             
+   And playing at `1600x900` with the minimum framerate set to 960 yields 76% performance boost.
 
 
 ## Downsides with having Minimum Framerate at 960.
