@@ -81,11 +81,47 @@ With having your minimum framerate at 960, Dynamic Resolution Scaling aka DRS te
 
     ### How to minimize mouse stuttering or jittering?
     
-    1. Make sure to use Scanline Sync in Halo Infinite.
+    1. Make sure to use Scanline Sync with Halo Infinite.
+  
+    2. 1. Navigate to this Directory:                  
+        `"C:\Program Files (x86)\RivaTuner Statistics Server\Profiles"`    
 
-    2. Add a framerate limit/framecap for Halo Infinite.    
-        The framerate cap depends on the amount of FPS, you get in game.       
-        `i.e 150~160 FPS, use 120 FPS as the framecap.`         
-        ![rtss.png](images/rtss.png)
-    
+        2. Open the correct `.cfg` file for Halo Infinite.       
+            That would be:  `HaloInfinite.exe.cfg`  (Steam Version)        
+
+        3. Look for the `[Framerate]` section.       
+            It should look like this:         
+            ```ini
+            [Framerate]
+            Limit=0
+            LimitDenominator=1
+            LimitTime=0
+            LimitTimeDenominator=1
+            SyncScanline0=-77
+            SyncScanline1=0
+            SyncPeriods=0
+            SyncLimiter=0
+            PassiveWait=0
+            ```
+        4. Add `SyncFlush` into the `[Framerate]` section like this:         
+            ```ini
+            [Framerate]
+            Limit=0
+            LimitDenominator=1
+            LimitTime=0
+            LimitTimeDenominator=1
+            SyncScanline0=-77
+            SyncScanline1=0
+            SyncPeriods=0
+            SyncLimiter=0
+            PassiveWait=0
+            SyncFlush=2
+            ```
+           The value of `SyncFlush` depends on your GPU usage.             
+
+           More than 30% > Use `SyncFlush=1`    
+           Less than 30% > Use `SyncFlush=2`        
+
+           Try both values and see which one works best for you.
+
     3. Use Ultra Low Latency + Mouse Polling Rate set to 1000 Hz.
