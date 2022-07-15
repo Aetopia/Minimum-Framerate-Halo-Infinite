@@ -76,7 +76,11 @@ With having your minimum framerate at 960, Dynamic Resolution Scaling aka DRS te
 
 1. You might experience the game somewhat stuttering but that isn't case, its the game simply bumping/decreasing the render resolution at more aggressive rate instead of gently.
 
-2. Mouse movement might appear stuttery/jittery when using forced V-Sync or Scanline Sync (RTSS).        
+2. With Min FPS set to `960` and DRS acting very aggressively, the game won't exactly scale to your specified render resolution, it will be slightly lower, resulting in a slightly blurry image.
+
+    To fix this simply use the ingame sharpening option, use values between `60% ~ 100%`. 
+
+3. Mouse movement might appear stuttery/jittery when using forced V-Sync or Scanline Sync (RTSS).        
     But this is only visual and only occurs if your minimum framerate is set to `960` or when DRS (Dynamic Resolution Scaling) acts very aggressively.
 
     ### How to minimize mouse stuttering or jittering?
@@ -124,4 +128,4 @@ With having your minimum framerate at 960, Dynamic Resolution Scaling aka DRS te
 
            Try both values and see which one works best for you.
 
-    3. Use Ultra Low Latency + Mouse Polling Rate set to 1000 Hz.
+        3. Use Ultra Low Latency + Mouse Polling Rate set to 1000 Hz or higher.
