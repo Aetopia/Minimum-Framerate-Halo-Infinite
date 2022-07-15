@@ -90,10 +90,10 @@ With having your minimum framerate at 960, Dynamic Resolution Scaling aka DRS te
     2. 1. Navigate to this Directory:                  
         `"C:\Program Files (x86)\RivaTuner Statistics Server\Profiles"`    
 
-        2. Open the correct `.cfg` file for Halo Infinite.       
+       2. Open the correct `.cfg` file for Halo Infinite.       
             That would be:  `HaloInfinite.exe.cfg`  (Steam Version)        
 
-        3. Look for the `[Framerate]` section.       
+       3. Look for the `[Framerate]` section.       
             It should look like this:         
             ```ini
             [Framerate]
@@ -107,7 +107,7 @@ With having your minimum framerate at 960, Dynamic Resolution Scaling aka DRS te
             SyncLimiter=0
             PassiveWait=0
             ```
-        4. Add `SyncFlush` into the `[Framerate]` section like this:         
+       4. Add `SyncFlush` into the `[Framerate]` section like this:         
             ```ini
             [Framerate]
             Limit=0
@@ -128,4 +128,4 @@ With having your minimum framerate at 960, Dynamic Resolution Scaling aka DRS te
 
            Try both values and see which one works best for you.
 
-        3. Use Ultra Low Latency + Mouse Polling Rate set to 1000 Hz or higher.
+       5. Use Ultra Low Latency + Mouse Polling Rate set to 1000 Hz or higher.
